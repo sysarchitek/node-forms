@@ -1,0 +1,42 @@
+<form method="post" action="/console" novalidate enctype="multipart/form-data">
+
+<table>
+<tr><td>
+<img src="http://emj56gkf1s.canadaeast.cloudapp.azure.com/databox.png">
+</td><td>
+<table border="0">
+<tr><td>
+	<img src="http://emj56gkf1s.canadaeast.cloudapp.azure.com/order.png">
+</td><td>
+  	<input type="radio" name="cmd" value="order" checked> Order DataBox
+</td></tr><tr><td>
+
+	<img src="http://emj56gkf1s.canadaeast.cloudapp.azure.com/ship.png">
+</td><td>
+	<input type="radio" name="cmd" value="ship"> ship databox
+</td></tr><tr><td>
+
+	<img src="http://emj56gkf1s.canadaeast.cloudapp.azure.com/fill.png">
+</td><td>
+	<input type="radio" name="cmd" value="fill"> fill databox
+	<div class="form-field">
+    <label for="photo">Photo</label>
+    	<input class="input" id="photo" name="photo" type="file" />
+  	</div>	
+</td></tr><tr><td>
+
+	<img src="http://emj56gkf1s.canadaeast.cloudapp.azure.com/return.png">
+</td><td>
+	<input type="radio" name="cmd" value="return"> return databox
+</td></tr><tr><td>
+
+	<img src="http://emj56gkf1s.canadaeast.cloudapp.azure.com/upload.png">
+</td><td>
+	<input type="radio" name="cmd" value="upload"> upload data
+</td></tr></table>
+</td></tr></table>
+
+  <div class="form-actions">
+    <button class="btn" type="submit">Send</button>
+  </div>
+</form>
