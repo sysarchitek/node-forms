@@ -30,7 +30,7 @@ const Message = require('azure-iot-device').Message;
 */
 const Client = require('azure-iothub').Client;
 var Message = require('azure-iot-common').Message;
-const connectionString = 'HostName=DataBoxHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=[IOThubownerKEY]=';
+const connectionString = 'HostName=DataBoxHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=RAx6yZ/8axyQyTo03MSzjFvxPNYRZkXUkIzAC+Mh9I0=';
 const targetDevice="DataBoxDevice";
 const client = Client.fromConnectionString(connectionString);
 

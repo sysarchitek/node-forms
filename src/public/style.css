@@ -19,6 +19,30 @@ h2 {
   font-size: 20px;
 }
 
+h3
+{
+ align-items: left !important;
+ float: left !important;
+ justify-content: flex-start !important;
+}
+h4
+{
+ align-items: left !important;
+ float: left !important;
+ justify-content: flex-start !important;
+}
+h5
+{
+ align-items: left !important;
+ float: left !important;
+ justify-content: flex-start !important;
+}
+h6
+{
+ align-items: left !important;
+ float: left !important;
+ justify-content: flex-start !important;
+}
 .form-header {
   width: 100%;
   max-width: 400px;

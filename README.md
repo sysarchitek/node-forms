@@ -1,18 +1,25 @@
-# Creating and Handling Forms in Node.js
+Project:
+https://github.com/sysarchitek/DataBox.Console
+Solution:
+https://github.com/sysarchitek/DataBox-IOT-Emulator
+
+author: Francois TURI
+
+Please update 
+src>routes.js
+Line31:
+const Client = require('azure-iothub').Client;
+var Message = require('azure-iot-common').Message;
+const connectionString = 'HostName=DataBoxHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=[IOThubownerKEY]=';
+const targetDevice="DataBoxDevice";
+const client = Client.fromConnectionString(connectionString);
+
+
+
+
+Based on works of:
 
 https://www.sitepoint.com/creating-and-handling-forms-in-node-js/
-
-## Requirements
-
-* [Node.js](http://nodejs.org/) (8.9.0+)
-
-## Installation Steps (if applicable)
-
-1. Clone repo
-2. Run `npm install`
-3. Run `npm start`
-4. Visit http://localhost:3000/
-
 ## License
 
 The MIT License (MIT)
