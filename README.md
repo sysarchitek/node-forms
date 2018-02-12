@@ -1,7 +1,13 @@
+
 Project:
 https://github.com/sysarchitek/DataBox.Console
 Solution:
 https://github.com/sysarchitek/DataBox-IOT-Emulator
+=======
+# DataBox Emulator Console based on the work of the Node form.js
+
+This form use MQtt to communicate with the raspberry emulator
+
 
 author: Francois TURI
 
